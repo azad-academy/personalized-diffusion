@@ -42,7 +42,7 @@ with capture.capture_output() as cap:
   if not os.path.exists('/usr/local/lib/python3.7/dist-packages/gradio-3.4b3.dist-info'):
     os.chdir(" /content/")
     os.system("wget https://github.com/TheLastBen/fast-stable-diffusion/raw/main/Dependencies/Dependencies_AUT.1")
-    os.system("wget https://github.com/TheLastBen/fast-stable-diffusion/raw/main/Dependencies/Dependencies_AUT.2
+    os.system("wget https://github.com/TheLastBen/fast-stable-diffusion/raw/main/Dependencies/Dependencies_AUT.2")
     os.system("mv Dependencies_AUT.1 Dependencies_AUT.7z.001")
     os.system("mv Dependencies_AUT.2 Dependencies_AUT.7z.002")
     os.system("7z x Dependencies_AUT.7z.001")
