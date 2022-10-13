@@ -1,5 +1,7 @@
 import os
 import time
+from subprocess import getoutput
+from IPython.utils import capture
 
 if MODEL_PATH == "":
     MODEL_PATH = "/content/personalized-diffusion/models/pegasus.ckpt"
@@ -23,4 +25,4 @@ os.system("rm /content/srvr.txt")
 with capture.capture_output() as cap:
   os.system("cd /content/personalized-diffusion/stable-diffusion/")
 
-os.system("python /content/personalized-diffusion/stable-diffusion-webui/webui.py --disable-safe-unpickle --ckpt {MODEL_PATH}")
+os.system("python /content/personalized-diffusion/stable-diffusion-webui/webui.py --ckpt {MODEL_PATH}")
