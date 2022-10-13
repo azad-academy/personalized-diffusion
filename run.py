@@ -16,7 +16,7 @@ os.system("sed -i '1037s@.*@            self.server_name = {srv[8:]}@' /usr/loca
 os.system("sed -i '1039s@.*@            self.server_port = 443@' /usr/local/lib/python3.7/dist-packages/gradio/blocks.py")
 os.system("sed -i '1043s@.*@            self.protocol = https@' /usr/local/lib/python3.7/dist-packages/gradio/blocks.py")
           
-os.system("sed -i '13s@.*@    PUBLIC_SHARE_TRUE: [32mConnected,@' /usr/local/lib/python3.7/dist-packages/gradio/strings.py")
+#os.system("sed -i '13s@.*@    PUBLIC_SHARE_TRUE: [32mConnected,@' /usr/local/lib/python3.7/dist-packages/gradio/strings.py")
   
 os.system("rm /content/srv.txt")
 os.system("rm /content/srvr.txt")
@@ -25,4 +25,4 @@ os.system("rm /content/srvr.txt")
 with capture.capture_output() as cap:
   os.system("cd /content/personalized-diffusion/stable-diffusion/")
 
-os.system("python /content/personalized-diffusion/stable-diffusion-webui/webui.py --ckpt {MODEL_PATH}")
+os.system("python /content/personalized-diffusion/stable-diffusion-webui/webui.py --disable-safe-unpickle --ckpt {}".format(MODEL_PATH))

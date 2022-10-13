@@ -10,9 +10,9 @@ with capture.capture_output() as cap:
     os.system("git clone https://github.com/CompVis/stable-diffusion")
     os.system("git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui")
     os.chdir("/content/personalized-diffusion/stable-diffusion-webui/")
-    os.system("mkdir -p cache/{huggingface,torch}")
+    os.system("mkdir -p cache/huggingface")
+    os.system("mkdir -p cache/torch")
     os.chdir("/content/")
-    os.system("pwd")
     os.system("ln -s /content/personalized-diffusion/stable-diffusion-webui/cache/huggingface ../root/.cache/")
     os.system("ln -s /content/personalized-diffusion/stable-diffusion-webui/cache/torch ../root/.cache/")
 
