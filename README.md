@@ -37,7 +37,10 @@ https://azad-wolf.medium.com/
 
 ## Style Customization using TextualInversion
 
-![TextualInversion Styles image](ti-style.png)
+![TextualInversion Styles image](ti-styles.png) 
+
+
+
 
 
 
