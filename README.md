@@ -21,7 +21,7 @@ If you would like to run it on your own PC instead then make sure you have suffi
 
 The full tutorial is available on medium.
 
-https://azad-wolf.medium.com/
+https://azad-wolf.medium.com/beyond-diffusion-what-is-personalized-image-generation-and-how-can-you-customize-image-synthesis-26a89d5b335
 
 
 
