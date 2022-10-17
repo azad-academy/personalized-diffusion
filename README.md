@@ -45,14 +45,14 @@ https://azad-wolf.medium.com/beyond-diffusion-what-is-personalized-image-generat
 ![DreamBooth Object image](dreambooth.jpg)
 
 <br/><br/>
-## Style Generation using TextualInversion
+## Style Capture & Generation using TextualInversion
 
 
 <br/><br/>
 ![TextualInversion Styles image](style-images.jpg) 
 
 <br/><br/>
-## Style Customization using TextualInversion
+## Style/Pose Transfer using TextualInversion
 
 
 ![TextualInversion Styles image](ti-styles.jpg) 
