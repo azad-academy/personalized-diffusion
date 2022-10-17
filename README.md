@@ -9,13 +9,12 @@
 <br/><br/>
 
 ## Requirements
----------------------
 
 
 If you would like to run it on your own PC instead then make sure you have sufficient hardware resources. Setup a Conda environment with python 3.10.6 and pytorch > 1.16.
 
 ## Running The Notebook
--------------------------------
+
 * Open the Notebook in Google Colab or local jupyter server
 * Make sure GPU is selected in the runtime (Runtime->Change Type->GPU)
 * Install the requirements
@@ -24,7 +23,7 @@ If you would like to run it on your own PC instead then make sure you have suffi
 
 
 ## The tutorial 📃
---------------------
+
 
 The full tutorial is available on medium.
 
@@ -34,27 +33,27 @@ https://azad-wolf.medium.com/beyond-diffusion-what-is-personalized-image-generat
 
 
 ## Object Customization using Textual Inversion
--------------------------------------------------
+
 
 ![TextualInversion Object image](ti-object.jpg)
 
 <br/><br/>
 ## Object Customization using DreamBooth
-------------------------------------------------
+
 
 
 ![DreamBooth Object image](dreambooth.jpg)
 
 <br/><br/>
 ## Style Generation using TextualInversion
---------------------------------------------
+
 
 <br/><br/>
 ![TextualInversion Styles image](style-images.jpg) 
 
 <br/><br/>
 ## Style Customization using TextualInversion
-------------------------------------------------
+
 
 ![TextualInversion Styles image](ti-styles.jpg) 
 
