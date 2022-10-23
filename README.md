@@ -34,7 +34,7 @@ On Substack:
 https://azadwolf.substack.com/p/beyond-diffusion-what-is-personalized
 
 
-<br/><br/>
+<br/><br/><br/>
 
 
 ## Object Customization using Textual Inversion
